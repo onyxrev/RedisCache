@@ -27,7 +27,7 @@ Using Node.js you need to first include RedisCache to begin using it.
 var cache = require('rediscache');
 ```
 
-RedisCache will establish a connection with the Redis server once you've invoked `connect` &ndash; passing in the `port`, `host`, and `password` &ndash; all of which being optional.
+RedisCache will establish a connection with the Redis server once you've invoked `connect` &ndash; passing in the `port`, `host`, `password`, and `database` &ndash; all of which being optional.
 
 By default RedisCache will attempt to connect to `127.0.0.1` on port `6379` with no auth password.
 
